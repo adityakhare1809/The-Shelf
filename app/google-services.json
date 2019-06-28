@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "676027830486",
+    "firebase_url": "https://the-shelf-aad92.firebaseio.com",
+    "project_id": "the-shelf-aad92",
+    "storage_bucket": "the-shelf-aad92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676027830486:android:63e78e1e375cb464",
+        "android_client_info": {
+          "package_name": "com.aditya.theshelf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676027830486-2h5m6jd6dniel3vhag35kf2jak5jjkql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aditya.theshelf",
+            "certificate_hash": "a6b432c26cc1147db3530d4ac68fd7117c407d44"
+          }
+        },
+        {
+          "client_id": "676027830486-4lt91gog2f32d591nrpde3g5qdum2bap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUQegyfvyua8Fc_11OhzvxL9-raCyBNBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676027830486-4lt91gog2f32d591nrpde3g5qdum2bap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

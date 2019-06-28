@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3A669"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".After_Login">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/wel" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/options"
+        android:textColor="#100E0E"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_1_add_book"
+        android:textColor="#0C0B0B"
+        android:textSize="18sp"
+        android:hint="@string/_1_add_book"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/searching_for_book"
+        android:textColor="#0C0B0B"
+        android:hint="@string/searching_for_book"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"/>
+</LinearLayout>

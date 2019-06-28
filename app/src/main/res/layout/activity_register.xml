@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="210dp"
+        android:contentDescription="@string/signuplogo"
+        app:srcCompat="@drawable/ss" />
+
+    <EditText
+        android:id="@+id/userName1"
+        android:layout_width="190dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="@string/use"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/Password1"
+        android:layout_width="190dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="@string/password1"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/Password2"
+        android:layout_width="190dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="@string/re_enter_password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/sign_up" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/notRegistered1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="@string/already_registered"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/Register1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="@string/login"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

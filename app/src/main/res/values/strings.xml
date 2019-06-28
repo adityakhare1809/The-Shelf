@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">The Shelf</string>
+    <string name="user_name">USER NAME</string>
+    <string name="password">password</string>
+    <string name="login">LogIn</string>
+    <string name="new_user">New user?</string>
+    <string name="sign_up">Sign Up</string>
+
+    <string name="already_registered">Already Registered?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="signuplogo">SignUplogo</string>
+    <string name="use">user</string>
+    <string name="password1">Password1</string>
+    <string name="re_enter_password">re-enter Password</string>
+    <string name="click_to_signup">Click to SignUp</string>
+    <string name="options">OPTIONS</string>
+    <string name="_1_add_book">1) Add Book</string>
+    <string name="searching_for_book">2) Searching For Book</string>
+    <string name="enter_details">ENTER DETAILS</string>
+    <string name="book_name"> Book Name</string>
+    <string name="subject">Subject</string>
+    <string name="description">Description</string>
+    <string name="condition">Condition</string>
+    <string name="original_price">Original Price</string>
+    <string name="selling_price">Selling Price</string>
+    <string name="seller_information">Enter Seller Information</string>
+    <string name="full_name">Full Name</string>
+    <string name="mob_no">Mob No.</string>
+    <string name="email_address">Email Address</string>
+    <string name="submit">Post AD</string>
+    <string name="age">age</string>
+    <string name="logg">logg</string>
+    <string name="upload">Upload</string>
+    <string name="choose_file">Choose File</string>
+    <string name="upload_book_image">Upload Book Image</string>
+    <string name="check_details">Check Details</string>
+    <string name="details">DETAILS</string>
+    <string name="buy">BUY</string>
+
+</resources>
